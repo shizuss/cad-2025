@@ -15,7 +15,7 @@
 - Logback 1.5.12
 
 ## Структура проекта
-'''
+```
 les06/lab
 ├── app
 │   ├── build.gradle.kts
@@ -48,10 +48,10 @@ les06/lab
 │       │       └── logback.xml
 │       └── test/...
 └── settings.gradle.kts
-'''
+```
 
 ## Диаграмма классов
-'''mermaid
+```mermaid
 classDiagram
     note "Товары для зоомагазина"
     Reader <|.. ResourceFileReader
@@ -84,7 +84,7 @@ classDiagram
         +String name
         +String description
     }
-'''
+```
 
 ## Выполнение работы
 
