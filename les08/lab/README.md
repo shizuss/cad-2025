@@ -118,7 +118,7 @@ erDiagram
 ## Результат работы
 <details>
 <summary>Консольный вывод</summary>
-```text
+```
 > Task :app:run
 SLF4J(I): Connected with provider of type [ch.qos.logback.classic.spi.LogbackServiceProvider]
 13:23:55.991 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
