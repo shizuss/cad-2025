@@ -12,6 +12,7 @@
 - IntelliJ IDEA / командная строка
 
 ## Структура проекта
+```
 les02/lab
 ├── app
 │ ├── build.gradle.kts
@@ -33,9 +34,10 @@ les02/lab
 │ │ └── products.csv
 │ └── test/...
 └── settings.gradle.kts
+```
 
 ## Диаграмма классов
-
+```mermaid
 classDiagram
     note "Товары для зоомагазина"
     Reader <|.. ResourceFileReader
@@ -99,6 +101,7 @@ classDiagram
         - Parser parser
        + List[Product] getProducts()
     }
+```
 
 ## Выполнение работы
 
@@ -126,8 +129,7 @@ classDiagram
 После этого таблица отображается корректно.
 
 ## Результат работы
-https://console_output.png
-(Вставьте скриншот с выводом вашей программы)
+![Результат работы](console_output.png)
 
 ## Инструкция по запуску
 - Перейти в папку les02/lab.
